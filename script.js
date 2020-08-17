@@ -109,13 +109,9 @@ document.addEventListener("click",(e)=>{
 	}
 });
 function init() {
-	let req = new XMLHttpRequest();
-	req.addEventListener("load",()=>{parseData(req)});
-	req.open("GET","https://"+window.location.host+"/ions.json");
-	req.send();
-}
-function parseData(data) {
-	ions = JSON.parse(data.responseText);
+	fetch(window.location.href + "ions.json").then(async res => {
+		ions = await res.json();
+	});
 }
 function start(mode) {
 	document.getElementById("settings").style.display = "none";
