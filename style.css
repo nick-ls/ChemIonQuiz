@@ -1,0 +1,316 @@
+@media screen and (min-device-width: 100px) and (max-device-width:650px) {
+	div#scoreboard {
+		position: fixed;
+		bottom: 0;
+		border-radius: 0 5px 0 0;
+		top: unset;
+		z-index: 3;
+	}
+	div.center {
+		align-items: flex-end;
+	}
+	div.card {
+		width: 95%;
+	}
+	div#qcard, div#acard {
+		width: 70%;
+		font-size: 2em;
+	}
+	div#qcard {
+		font-size: 3em;
+		text-align: center;
+	}
+	div#infocard {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 4;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+	div.incorrect, div.correct {
+		width: unset;
+		font-size: 2em;
+		margin-right: 20px;
+	}
+	div.explain {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	div.explain > div{
+		flex-grow: 1;
+		margin-right: 5%;
+	}
+	span.acenter {
+		width: unset;
+		font-size: 2em;
+	}
+	span.anscenter {
+		width: unset;
+		font-size: 2em;
+		margin-bottom: 0px;
+	}
+	input[type="text"] {
+		border: 2px solid rgb(218,218,218);
+	}
+	div#ok:hover, div#submit:hover, div#restart:hover {
+		box-shadow: unset;
+		color: unset;
+	}
+	div#settings{
+		width: 70%;
+		font-size: 2em;
+		margin-top: 50%;
+	}
+	div#info {
+		font-size: 2em;
+	}
+	div#info::after {
+		font-weight: bold;
+		content: "For mobile devices, the keys \"!@#$%^&*(\" must be used to input superscript numbers (¹²³⁴⁵⁶⁷⁸⁹).";
+	}
+	div.card>div.explain {
+		flex-direction: column;
+	}
+}
+@media screen and (orientation:landscape) and (min-device-width: 100px) and (max-device-width: 700px) and (min-aspect-ratio:13/9){
+	div#warning {
+		display: flex;
+	}
+}
+html,body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #ACCEED;
+	color: #0E007C;
+}
+#warning {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #4A4A4A;
+	display: none;
+	text-align: center;
+	z-index: 100;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2em;
+}
+label[for="useAlt"] {
+	font-size: 0.6em;
+}
+.center {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	width: 60%;
+	height: 80%;
+	box-shadow: 5px 5px 6px gray;
+	border-radius: 3px;
+	background-color: #F6F6F6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.pick {
+	transition: background-color 0.2s,color 0.2s;
+	display: block;
+	padding: 20px;
+	background-color: #D1E2FF;
+	user-select: none;
+	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 1em;
+	border-radius: 3px;
+	cursor: pointer;
+	width: 30%;
+}
+.pick:hover {
+	transition: background-color 0.2s;
+	background-color: #BED6FF;
+}
+input[type="radio"]:checked + .pick {
+	transition: background-color 0.2s,color 0.2s;
+	background-color: #91B9FF;
+	color: white;
+}
+input[type="radio"] {
+	display: none;
+}
+#settings {
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 40%;
+	font-weight: bold;
+	color: #737DCB;
+}
+#creator {
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	color: gray;
+	font-size: 1em;
+}
+#radios {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 15px;
+	width: 100%;
+}
+#ok, #submit, #restart {
+	transition: background-color 0.2s,box-shadow 0.4s,color 0.4s;
+	width: calc(96% - 28px);
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	color: #6F80FF;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0 #91B9FF;
+	border: 4px solid #6F80FF;
+}
+#ok:hover, #submit:hover, #restart:hover {
+	transition: background-color 0.2s,box-shadow 0.4s,color 0.4s;
+	box-shadow: inset 0 0 0 30px #91B9FF;
+	color: white;
+}
+#q {
+	width: 50%;
+	height: 100%;
+	background-color: #E9E9E9;
+	border-radius: 0 3px 3px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#a {
+	width: 50%;
+	height: 100%;
+	background-color: #D5D5D5;
+	border-radius: 3px 0 0 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+#qcard,#acard {
+	width: 60%;
+	height: 60%;
+	background-color: white;
+	border-radius: 20px;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px #909090;
+}
+#acard {
+	height: 60%;
+	width: 50%;
+	padding: 10%;
+	flex-direction: column;
+}
+input[type="text"] {
+	width: 100%;
+	height: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	outline: none;
+	text-align: center;
+	font-size: 0.9em;
+}
+#submit {
+	font-size: 0.8em;
+	width: calc(100% - 26px);
+	user-select: none;
+}
+#altname {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#scoreboard {
+	padding: 10px;
+	border-radius: 0 0 5px 0;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.5em;
+	box-shadow: 2px 2px 5px #909090;
+	font-weight: bold;
+	color: #737DCB;
+}
+#infocard {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	width: 15%;
+	background-color: white;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 2px 2px 5px #909090;
+	padding: 10px;
+}
+#info {
+	color: #737DCB;
+	padding: 10px;
+	line-height: 2em;
+}
+.correct {
+	color: #74E274;
+}
+.incorrect {
+	color: #FF5F5F;
+}
+.correct, .incorrect {
+	font-weight: bold;
+	width: 100%;
+	height: 10%;
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.explain {
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #737DCB;
+}
+.acenter {
+	width: 100%;
+	font-size: 1em;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	text-decoration: underline;
+}
+.anscenter {
+	margin-top: 10px;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+}

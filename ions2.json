@@ -1,0 +1,209 @@
+{
+	"anions": {
+		"acetate": "C\u2082H\u2083O\u2082\u207b",
+		"arsenate": "AsO\u2084\u00b3\u207b",
+		"arsenite": "AsO\u2083\u00b3\u207b",
+		"borate": "BO\u2083\u00b3\u207b",
+		"bromate": "BrO\u2083\u207b",
+		"bromide": "Br\u207b",
+		"bromite": "BrO\u2082\u207b",
+		"carbonate": "CO\u2083\u00b2\u207b",
+		"chlorate": "ClO\u2083\u207b",
+		"chloride": "Cl\u207b",
+		"chlorite": "ClO\u2082\u207b",
+		"chromate": "CrO\u2084\u00b2\u207b",
+		"cyanate": "CNO\u207b",
+		"cyanide": "CN\u207b",
+		"dichromate": "Cr\u2082O\u2087\u00b2\u207b",
+		"dihydrogen phosphate": "H\u2082PO\u2084\u207b",
+		"fluoride": "F\u207b",
+		"hydride": "H\u207b",
+		"hydrogen carbonate": {
+			"formula": "HCO\u2083\u207b",
+			"alt": "bicarbonate"
+		},
+		"hydrogen oxalate": {
+			"formula": "HC\u2082O\u2084\u207b",
+			"alt": "bioxalate"
+		},
+		"hydrogen phosphate": {
+			"formula": "HPO\u2084\u00b2\u207b",
+			"alt": "biphosphate"
+		},
+		"hydrogen sulfate": {
+			"formula": "HSO\u2084\u207b",
+			"alt": "bisulfate"
+		},
+		"hydrogen sulfide": {
+			"formula": "HS\u207b",
+			"alt": "bisulfide"
+		},
+		"hydrogen sulfite": {
+			"formula": "HSO\u2083\u207b",
+			"alt": "bisulfite"
+		},
+		"hydroxide": "OH\u207b",
+		"hypobromite": "BrO\u207b",
+		"hypochlorite": "ClO\u207b",
+		"hypoiodite": "IO\u207b",
+		"iodate": "IO\u2083\u207b",
+		"iodide": "I\u207b",
+		"iodite": "IO\u2082\u207b",
+		"molybdate": "MoO\u2084\u00b2\u207b",
+		"nitrate": "NO\u2083\u207b",
+		"nitride": "N\u2083\u207b",
+		"nitrite": "NO\u2082\u207b",
+		"oxalate": "C\u2082O\u2084\u00b2\u207b",
+		"oxide": "O\u00b2\u207b",
+		"perbromate": "BrO\u2084\u207b",
+		"perchlorate": "ClO\u2084\u207b",
+		"periodate": "IO\u2084\u207b",
+		"permanganate": "MnO\u2084\u207b",
+		"peroxide": "O\u2082\u00b2\u207b",
+		"phosphate": "PO\u2084\u00b3\u207b",
+		"phosphide": "P\u00b3\u207b",
+		"phosphite": "PO\u2083\u00b3\u207b",
+		"selenate": "SeO\u2084\u00b2\u207b",
+		"selenide": "Se\u00b2\u207b",
+		"silicate": "SiO\u2083\u00b2\u207b",
+		"sulfate": "SO\u2084\u00b2\u207b",
+		"sulfide": "S\u00b2\u207b",
+		"sulfite": "SO\u2083\u00b2\u207b",
+		"tellurate": "TeO\u2084\u00b2\u207b",
+		"telluride": "Te\u00b2\u207b",
+		"thiocyanate": "SCN\u207b",
+		"thiosulfate": "S\u2082O\u2083\u00b2\u207b",
+		"tungstate": "WO\u2084\u00b2\u207b"
+	},
+	"cations": {
+		"aluminum": "Al\u00b3\u207a",
+		"ammonium": "NH\u2084\u207a",
+		"barium": "Ba\u00b2\u207a",
+		"bismuth (III)": "Bi\u00b3\u207a",
+		"bismuth (V)": "Bi\u2075\u207a",
+		"cadmium": "Cd\u00b2\u207a",
+		"calcium": "Ca\u00b2\u207a",
+		"cerium (III)": {
+			"formula": "Ce\u00b3\u207a",
+			"alt": "cerous"
+		},
+		"cerium (IV)": {
+			"formula": "Ce\u2074\u207a",
+			"alt": "ceric"
+		},
+		"cesium": "Cs\u207a",
+		"chromium (II)": {
+			"formula": "Cr\u00b2\u207a",
+			"alt": "chromous"
+		},
+		"chromium (III)": {
+			"formula": "Cr\u00b3\u207a",
+			"alt": "chromic"
+		},
+		"chromium (VI)": "Cr\u2076\u207a",
+		"cobalt (II)": {
+			"formula": "Co\u00b2\u207a",
+			"alt": "cobaltous"
+		},
+		"cobalt (III)": {
+			"formula": "Co\u00b3\u207a",
+			"alt": "cobaltic"
+		},
+		"copper (I)": {
+			"formula": "Cu\u207a",
+			"alt": "cuprous"
+		},
+		"copper (II)": {
+			"formula": "Cu\u00b2\u207a",
+			"alt": "cupric"
+		},
+		"gold (I)": {
+			"formula": "Au\u207a",
+			"alt": "aurous"
+		},
+		"gold (III)": {
+			"formula": "Au\u00b3\u207a",
+			"alt": "auric"
+		},
+		"hydrogen": "H\u207a",
+		"hydronium": "H\u2083O\u207a",
+		"iron (II)": {
+			"formula": "Fe\u00b2\u207a",
+			"alt": "ferrous"
+		},
+		"iron (III)": {
+			"formula": "Fe\u00b3\u207a",
+			"alt": "ferric"
+		},
+		"lead (II)": {
+			"formula": "Pb\u00b2\u207a",
+			"alt": "plumbous"
+		},
+		"lead (IV)": {
+			"formula": "Pb\u2074\u207a",
+			"alt": "plumbic"
+		},
+		"lithium": "Li\u207a",
+		"magnesium": "Mg\u00b2\u207a",
+		"manganese (II)": "Mn\u00b2\u207a",
+		"manganese (III)": "Mn\u00b3\u207a",
+		"manganese (IV)": "Mn\u2074\u207a",
+		"mercury (I)": {
+			"formula": "Hg\u2082\u00b2\u207a",
+			"alt": "mercurous"
+		},
+		"mercury (II)": {
+			"formula": "Hg\u00b2\u207a",
+			"alt": "mercuric"
+		},
+		"nickel (II)": {
+			"formula": "Ni\u00b2\u207a",
+			"alt": "nickelous"
+		},
+		"nickel (III)": {
+			"formula": "Ni\u00b3\u207a",
+			"alt": "nickelic"
+		},
+		"platinum (II)": {
+			"formula": "Pt\u00b2\u207a",
+			"alt": "platinous"
+		},
+		"platinum (IV)": {
+			"formula": "Pt\u2074\u207a",
+			"alt": "platinic"
+		},
+		"potassium": "K\u207a",
+		"rubidium": "Rb\u207a",
+		"silver": "Ag\u207a",
+		"sodium": "Na\u207a",
+		"strontium": "Sr\u00b2\u207a",
+		"thallium (I)": {
+			"formula": "Tl\u207a",
+			"alt": "thallous"
+		},
+		"thallium (III)": {
+			"formula": "Tl\u00b3\u207a",
+			"alt": "thallic"
+		},
+		"tin (II)": {
+			"formula": "Sn\u00b2\u207a",
+			"alt": "stannous"
+		},
+		"tin (IV)": {
+			"formula": "Sn\u2074\u207a",
+			"alt": "stannic"
+		},
+		"titanium (II)": "Ti\u00b2\u207a",
+		"titanium (III)": "Ti\u00b3\u207a",
+		"titanium (IV)": "Ti\u2074\u207a",
+		"tungsten (II)": "W\u00b2\u207a",
+		"tungsten (IV)": "W\u2074\u207a",
+		"tungsten (V)": "W\u2075\u207a",
+		"tungsten (VI)": "W\u2076\u207a",
+		"vanadium (II)": "V\u00b2\u207a",
+		"vanadium (III)": "V\u00b3\u207a",
+		"vanadium (IV)": "V\u2074\u207a",
+		"vanadium (V)": "V\u2075\u207a",
+		"zinc": "Zn\u00b2\u207a"
+	}
+}

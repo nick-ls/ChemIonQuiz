@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ion Study Guide</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="icon" href="favicon.png" type="image/x-icon"/>
+</head>
+<body>
+<div id="warning">Please use in portrait mode. Flip phone back upright.</div>
+<div id="scoreboard" style="display: none;"></div>
+<div id="infocard">
+	<div id="info">
+		<h3>How to use</h3>
+		Welcome to the AP Chem Ion quiz. When inputting <strong>ion formulas</strong>, regular numbers (0-9) will be replaced with <strong>subscript</strong> versions of their normal counterparts (₀-₉ {the lower ones}).
+		You can input <strong>superscript</strong> numbers (⁰-⁹ {the higher ones}) by holding Shift and the corresponding number key. <strong>Plus and minus will also be converted</strong> to their superscript counterparts automagically.
+		For cations, the <strong>parentheses and Roman numerals are required</strong> exactly as they are shown in the names on the ion sheet.
+	</div>
+</div>
+<div class="center">
+	<div class="card">
+		<div id="a" style="display: none;">
+			<div id="acard">
+				<span id="ionname">Ion Name/Formula:</span>
+				<input id="answer" type="text" name="answer">
+				<span id="altname">
+					Alternate Name: <input id="altans" type="text" name="alt">
+				</span>
+				<div id="submit">Submit Answer</div>
+			</div>
+		</div>
+		<div id="q" style="display: none;">
+			<div id="qcard">HPO₄²⁻</div>
+		</div>
+		<div id="settings">
+			Choose what you want to study
+			<div id="radios">
+				<input id="cations" type="radio" name="mode" value="cations">
+				<label class="pick" for="cations">Cations</label>
+				<input id="anions" type="radio" name="mode" value="anions">
+				<label class="pick" for="anions">Anions</label>
+				<input id="both" type="radio" name="mode" value="both">
+				<label class="pick" for="both">Both</label>
+			</div>
+			<div>
+				<input id="useAlt" type="checkbox" name="useAlt">
+				<label for="useAlt">Quiz me on the alternate names of ions.</label>
+			</div>
+			<div id="ok">Ok</div>
+		</div>
+	</div>
+</div>
+<div id="creator">Made by Nick Petrone</div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

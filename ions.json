@@ -1,0 +1,209 @@
+{
+	"anions": {
+		"acetate": "C₂H₃O₂⁻",
+		"arsenate": "AsO₄³⁻",
+		"arsenite": "AsO₃³⁻",
+		"borate": "BO₃³⁻",
+		"bromate": "BrO₃⁻",
+		"bromide": "Br⁻",
+		"bromite": "BrO₂⁻",
+		"carbonate": "CO₃²⁻",
+		"chlorate": "ClO₃⁻",
+		"chloride": "Cl⁻",
+		"chlorite": "ClO₂⁻",
+		"chromate": "CrO₄²⁻",
+		"cyanate": "CNO⁻",
+		"cyanide": "CN⁻",
+		"dichromate": "Cr₂O₇²⁻",
+		"dihydrogen phosphate": "H₂PO₄⁻",
+		"fluoride": "F⁻",
+		"hydride": "H⁻",
+		"hydrogen carbonate": {
+			"formula": "HCO₃⁻",
+			"alt": "bicarbonate"
+		},
+		"hydrogen oxalate": {
+			"formula": "HC₂O₄⁻",
+			"alt": "bioxalate"
+		},
+		"hydrogen phosphate": {
+			"formula": "HPO₄²⁻",
+			"alt": "biphosphate"
+		},
+		"hydrogen sulfate": {
+			"formula": "HSO₄⁻",
+			"alt": "bisulfate"
+		},
+		"hydrogen sulfide": {
+			"formula": "HS⁻",
+			"alt": "bisulfide"
+		},
+		"hydrogen sulfite": {
+			"formula": "HSO₃⁻",
+			"alt": "bisulfite"
+		},
+		"hydroxide": "OH⁻",
+		"hypobromite": "BrO⁻",
+		"hypochlorite": "ClO⁻",
+		"hypoiodite": "IO⁻",
+		"iodate": "IO₃⁻",
+		"iodide": "I⁻",
+		"iodite": "IO₂⁻",
+		"molybdate": "MoO₄²⁻",
+		"nitrate": "NO₃⁻",
+		"nitride": "N³⁻",
+		"nitrite": "NO₂⁻",
+		"oxalate": "C₂O₄²⁻",
+		"oxide": "O²⁻",
+		"perbromate": "BrO₄⁻",
+		"perchlorate": "ClO₄⁻",
+		"periodate": "IO₄⁻",
+		"permanganate": "MnO₄⁻",
+		"peroxide": "O₂²⁻",
+		"phosphate": "PO₄³⁻",
+		"phosphide": "P³⁻",
+		"phosphite": "PO₃³⁻",
+		"selenate": "SeO₄²⁻",
+		"selenide": "Se²⁻",
+		"silicate": "SiO₃²⁻",
+		"sulfate": "SO₄²⁻",
+		"sulfide": "S²⁻",
+		"sulfite": "SO₃²⁻",
+		"tellurate": "TeO₄²⁻",
+		"telluride": "Te²⁻",
+		"thiocyanate": "SCN⁻",
+		"thiosulfate": "S₂O₃²⁻",
+		"tungstate": "WO₄²⁻"
+	},
+	"cations": {
+		"aluminum": "Al³⁺",
+		"ammonium": "NH₄⁺",
+		"barium": "Ba²⁺",
+		"bismuth (III)": "Bi³⁺",
+		"bismuth (V)": "Bi⁵⁺",
+		"cadmium": "Cd²⁺",
+		"calcium": "Ca²⁺",
+		"cerium (III)": {
+			"formula": "Ce³⁺",
+			"alt": "cerous"
+		},
+		"cerium (IV)": {
+			"formula": "Ce⁴⁺",
+			"alt": "ceric"
+		},
+		"cesium": "Cs⁺",
+		"chromium (II)": {
+			"formula": "Cr²⁺",
+			"alt": "chromous"
+		},
+		"chromium (III)": {
+			"formula": "Cr³⁺",
+			"alt": "chromic"
+		},
+		"chromium (VI)": "Cr⁶⁺",
+		"cobalt (II)": {
+			"formula": "Co²⁺",
+			"alt": "cobaltous"
+		},
+		"cobalt (III)": {
+			"formula": "Co³⁺",
+			"alt": "cobaltic"
+		},
+		"copper (I)": {
+			"formula": "Cu⁺",
+			"alt": "cuprous"
+		},
+		"copper (II)": {
+			"formula": "Cu²⁺",
+			"alt": "cupric"
+		},
+		"gold (I)": {
+			"formula": "Au⁺",
+			"alt": "aurous"
+		},
+		"gold (III)": {
+			"formula": "Au³⁺",
+			"alt": "auric"
+		},
+		"hydrogen": "H⁺",
+		"hydronium": "H₃O⁺",
+		"iron (II)": {
+			"formula": "Fe²⁺",
+			"alt": "ferrous"
+		},
+		"iron (III)": {
+			"formula": "Fe³⁺",
+			"alt": "ferric"
+		},
+		"lead (II)": {
+			"formula": "Pb²⁺",
+			"alt": "plumbous"
+		},
+		"lead (IV)": {
+			"formula": "Pb⁴⁺",
+			"alt": "plumbic"
+		},
+		"lithium": "Li⁺",
+		"magnesium": "Mg²⁺",
+		"manganese (II)": "Mn²⁺",
+		"manganese (III)": "Mn³⁺",
+		"manganese (IV)": "Mn⁴⁺",
+		"mercury (I)": {
+			"formula": "Hg₂²⁺",
+			"alt": "mercurous"
+		},
+		"mercury (II)": {
+			"formula": "Hg²⁺",
+			"alt": "mercuric"
+		},
+		"nickel (II)": {
+			"formula": "Ni²⁺",
+			"alt": "nickelous"
+		},
+		"nickel (III)": {
+			"formula": "Ni³⁺",
+			"alt": "nickelic"
+		},
+		"platinum (II)": {
+			"formula": "Pt²⁺",
+			"alt": "platinous"
+		},
+		"platinum (IV)": {
+			"formula": "Pt⁴⁺",
+			"alt": "platinic"
+		},
+		"potassium": "K⁺",
+		"rubidium": "Rb⁺",
+		"silver": "Ag⁺",
+		"sodium": "Na⁺",
+		"strontium": "Sr²⁺",
+		"thallium (I)": {
+			"formula": "Tl⁺",
+			"alt": "thallous"
+		},
+		"thallium (III)": {
+			"formula": "Tl³⁺",
+			"alt": "thallic"
+		},
+		"tin (II)": {
+			"formula": "Sn²⁺",
+			"alt": "stannous"
+		},
+		"tin (IV)": {
+			"formula": "Sn⁴⁺",
+			"alt": "stannic"
+		},
+		"titanium (II)": "Ti²⁺",
+		"titanium (III)": "Ti³⁺",
+		"titanium (IV)": "Ti⁴⁺",
+		"tungsten (II)": "W²⁺",
+		"tungsten (IV)": "W⁴⁺",
+		"tungsten (V)": "W⁵⁺",
+		"tungsten (VI)": "W⁶⁺",
+		"vanadium (II)": "V²⁺",
+		"vanadium (III)": "V³⁺",
+		"vanadium (IV)": "V⁴⁺",
+		"vanadium (V)": "V⁵⁺",
+		"zinc": "Zn²⁺"
+	}
+}
