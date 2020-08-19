@@ -70,10 +70,7 @@ document.addEventListener("keyup", e => {
 });
 document.addEventListener("click", e => {
 	if (e.target.id === "restart") {
-		document.querySelector(".card > .explain").remove();
-		document.getElementById("settings").style.display = "";
-		right = 0;
-		wrong = 0;
+		window.location.reload();
 	}
 });
 document.addEventListener("keydown", e => {
